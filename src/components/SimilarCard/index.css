@@ -1,0 +1,30 @@
+.similar-job-item {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #202020;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 350px;
+}
+.description-text-similar {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'roboto';
+  line-height: 1.8;
+}
+@media screen and (max-width: 767px) {
+  .similar-job-item {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .description-text-similar {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'roboto';
+    line-height: 1.8;
+  }
+}

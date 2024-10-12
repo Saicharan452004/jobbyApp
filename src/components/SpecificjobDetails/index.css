@@ -1,0 +1,111 @@
+.job-item-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+  width: 100%;
+  padding: 25px;
+}
+.description-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.description-text {
+  font-size: 20px;
+}
+.visit-container {
+  display: flex;
+  align-items: center;
+}
+.visit-heading {
+  color: #6a95ce;
+  text-decoration: none;
+  padding-right: 4px;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+.visit-icon {
+  color: #6a95ce;
+  font-size: 14px;
+  font-family: 'roboto';
+}
+.description-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.skills-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.skills-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.life-at-company-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.life-at-company-description-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.life-at-company-description {
+  color: #ffffff;
+  font-size: 20px;
+  width: 65%;
+  line-height: 1.8;
+  font-family: 'roboto';
+}
+.life-at-company-image {
+  width: 350px;
+  height: 260px;
+}
+@media screen and (max-width: 767px) {
+  .life-at-company-description-image-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .life-at-company-description {
+    font-size: 15px;
+    width: 100%;
+    font-family: 'roboto';
+  }
+  .life-at-company-image {
+    width: 100%;
+  }
+  .similar-jobs-heading {
+    font-size: 28px;
+  }
+  .similar-jobs-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .description-text {
+    font-size: 15px;
+  }
+}
+.similar-jobs-heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+.similar-jobs-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  padding-left: 0;
+}

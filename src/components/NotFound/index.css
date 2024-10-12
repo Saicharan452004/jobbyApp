@@ -1,0 +1,34 @@
+.not-found-image {
+  width: 30%;
+  height: 40vh;
+}
+.not-found-heading {
+  font-family: 'roboto';
+  font-size: 28px;
+  color: white;
+}
+.not-found-paragraph {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #7e858e;
+}
+.not-found-page-container {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (max-width: 767px) {
+  .not-found-image {
+    width: 45%;
+    height: 30vh;
+  }
+  .not-found-heading {
+    font-size: 16px;
+  }
+  .not-found-paragraph {
+    font-size: 10px;
+  }
+}
